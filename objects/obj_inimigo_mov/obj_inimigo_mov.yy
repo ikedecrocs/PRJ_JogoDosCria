@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inimigo",
-  "eventList":[],
+  "%Name":"obj_inimigo_mov",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_inimigo",
+  "name":"obj_inimigo_mov",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
