@@ -6,5 +6,4 @@ if moeda < 3 {
 }
 else {
 	instance_destroy(other);
-	room_goto_next();
 }
