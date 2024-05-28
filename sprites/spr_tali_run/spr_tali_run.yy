@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_tali_run",
   "bboxMode":2,
-  "bbox_bottom":32,
+  "bbox_bottom":31,
   "bbox_left":4,
   "bbox_right":27,
   "bbox_top":1,
