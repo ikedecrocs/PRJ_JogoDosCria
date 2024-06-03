@@ -3,7 +3,9 @@
 moeda = 0;
 
 // gravidade
-grv = 0.2; 
+grv = 0.3;
+grv_normal = 0.3;
+grv_parede = 0.07;
 
 // velocidade atual 
 hsp = 0;
@@ -13,7 +15,14 @@ vsp = 0;
 hsp_walk = 3.5;
 
 // velocidade do pulo
-vsp_jump = -6;
+vsp_jump_normal = -8;
+vsp_jump_parede = -6;
+vsp_jump = vsp_jump_normal;
 
 // pode pular
-can_jump = 0;
+time_jump_normal = 10;
+time_jump_parede = 15;
+can_jump = time_jump_normal;
+
+// esta olhando para a parede
+looking_wall = false;
